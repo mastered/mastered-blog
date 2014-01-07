@@ -15,15 +15,15 @@
 			</h1>
 			<?php } elseif (is_day()) { ?>
 			<h1 class="headline">
-				Daily Archives: <?php the_time('l, F j, Y'); ?>
+				Archives: <?php the_time('l, F j, Y'); ?>
 			</h1>
 			<?php } elseif (is_month()) { ?>
 			<h1 class="headline">
-				Monthly Archives: <?php the_time('F Y'); ?>
+				Archives: <?php the_time('F Y'); ?>
 			</h1>
 			<?php } elseif (is_year()) { ?>
 			<h1 class="headline">
-				Yearly Archives: <?php the_time('Y'); ?>
+				Archives: <?php the_time('Y'); ?>
 			</h1>
 			<?php } ?>
 			
