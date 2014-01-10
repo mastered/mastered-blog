@@ -174,9 +174,14 @@ a {
   display: inline-block;
   list-style: none;
   padding: 0;
+  padding-left: .5em;
+  font-weight: 500;
   margin: 0; }
   .blog-nav li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 1.6em;
+    vertical-align: middle;
+    margin-top: 6px; }
   .blog-nav a {
     color: #fff;
     text-decoration: none; }
