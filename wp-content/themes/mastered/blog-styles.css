@@ -340,6 +340,9 @@ a {
 /* Blog base styles */
 .post-content img {
   margin-bottom: 1.3em; }
+  .post-content img.alignnone {
+    margin-bottom: .4em;
+    margin-top: .4em; }
 
 /* == WordPress WYSIWYG Editor Styles == */
 .entry-content img {

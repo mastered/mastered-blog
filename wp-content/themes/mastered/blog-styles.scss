@@ -419,6 +419,10 @@ a {
 
 .post-content img {
 	margin-bottom: 1.3em;
+	&.alignnone {
+		margin-bottom: .4em;
+		margin-top: .4em;
+	}
 }
 
 /* == WordPress WYSIWYG Editor Styles == */
