@@ -30,7 +30,10 @@
 				<a href="<?php echo home_url(); ?>" class="blog-logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
 				</a>
-				<a href="<?php echo home_url(); ?>" class="blog-title"><h2>The Blog</h2></a>
-				<a href="http://mastered.co" class="back-to-website">Back to the main website</a>
+				<ul class="blog-nav">
+					<li><a href="https://mastered.co/courses">Courses</a></li>
+					<li><a href="https://mastered.co/pages/purpose">About</a></li>
+					<li><a href="http://blog.mastered.co/">Blog</a></li>
+				</ul>
 			</div>
 		</header>

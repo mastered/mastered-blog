@@ -183,6 +183,7 @@ a {
 	margin-right: 4.5em;
 	img {
 		vertical-align: middle;
+		width: 151px;
 	}
 	&:after {
 		content: "";
@@ -191,9 +192,9 @@ a {
 		background-color: rgba(255,255,255,0.1);
 		position: absolute;
 		top: 0;
-		right: -2.5em;
+		right: -2.7em;
 	}
-}
+} 
 
 .blog-title {
 	text-decoration: none;
@@ -208,6 +209,20 @@ a {
 	}
 	&:hover {
 		opacity: .7;
+	}
+}
+
+.blog-nav {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		display: inline-block;
+	}
+	a {
+		color: #fff;
+		text-decoration: none;
 	}
 }
 

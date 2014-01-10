@@ -146,7 +146,8 @@ a {
   position: relative;
   margin-right: 4.5em; }
   .blog-logo img {
-    vertical-align: middle; }
+    vertical-align: middle;
+    width: 151px; }
   .blog-logo:after {
     content: "";
     width: 1px;
@@ -154,7 +155,7 @@ a {
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 0;
-    right: -2.5em; }
+    right: -2.7em; }
 
 .blog-title {
   text-decoration: none;
@@ -168,6 +169,17 @@ a {
     font-family: "effra", arial; }
   .blog-title:hover {
     opacity: .7; }
+
+.blog-nav {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .blog-nav li {
+    display: inline-block; }
+  .blog-nav a {
+    color: #fff;
+    text-decoration: none; }
 
 .back-to-website {
   font-size: 14px;
