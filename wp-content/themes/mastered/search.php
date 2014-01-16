@@ -10,7 +10,7 @@
 					<h2 class="post-entry-title">
 						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 					</h2>
-					<p class="post-meta">Posted on <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> by <?php the_author(); ?> in <?php the_category(', '); ?>.</p>
+					<p class="post-meta">Posted by <?php the_author_meta('user_firstname'); ?> in <?php the_category(', '); ?>.</p>
 				</header> <!-- End post header -->
 				<div class="post-content">
 					<?php the_content('<span class="read-more">Read more on "'.the_title('', '', false).'"</span>'); ?>
