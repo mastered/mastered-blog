@@ -1,6 +1,7 @@
 <a href="https://mastered.co/courses" class="blog-course-promo">
 	<h3>Turning Makers into Masters</h3>
-	<p>Online fashion and jewelry courses from world class experts. Try a course today!</p>
+	<p class="desc">Online fashion and jewelry courses from world class experts.</p>
+	<p class="blog-cta-wrap"><span class="butt mini cta">Try a course today!</span></p>
 </a>
 <form role="search" class="blog-search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 	<label class="search-blog-label screen-reader-text" for="s">Search the blog:</label>

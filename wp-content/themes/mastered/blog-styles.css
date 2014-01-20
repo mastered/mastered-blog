@@ -348,6 +348,13 @@ a {
   border: 1px #dcdcdc solid;
   margin: 0 0 2em 0;
   display: block; }
+  .blog-course-promo h3 {
+    line-height: 1.3;
+    margin-bottom: .5em; }
+  .blog-course-promo .desc {
+    font-size: 14px; }
+  .blog-course-promo .blog-cta-wrap {
+    margin-bottom: 0; }
 
 /* Blog base styles */
 .post-content img {
