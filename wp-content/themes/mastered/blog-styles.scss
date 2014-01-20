@@ -8,6 +8,12 @@ $dark-grey: #2a2a2a;
 $medium-grey: #5f5f5f;
 $serif-font-stack: "kepler-std-display", georgia, serif;
 $gutter: 0.9375em;
+$blue: #2daec1;
+$light-grey: #c7c7c7;
+$pale-grey: #f0f0f0;
+$grey-border: #dcdcdc;
+$button-grey: #e3e3e3;
+$ultra-light-grey: #fafafa;
 
 /* Base */
 
@@ -439,6 +445,167 @@ a {
 	.blog-cta-wrap {
 		margin-bottom: 0;
 	}
+}
+
+/* Buttons */
+
+.butt,.button {
+  display: inline-block;
+  padding: 0.55em 0.8em 0.55em;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  background-color: $button-grey;
+  -webkit-box-shadow: 0 2px 0 0 darken($button-grey, 10%);
+  box-shadow: 0 2px 0 0 darken($button-grey, 10%);
+  color: $dark-grey;
+  outline: 0;
+  position: relative;
+  &:hover {
+    background-color: lighten($button-grey, 2%);
+    color: $dark-grey;
+  }
+  &:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: translate(0,2px);
+    -ms-transform: translate(0,2px); /* IE 9 */
+    -webkit-transform: translate(0,2px); /* Safari and Chrome */
+    &:after {
+      top: -2px;
+    }
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  &.full-width {
+    width: 100%;
+  }
+  &.big {
+    font-size: emCalc(19px);
+    padding: 0.75em 1.05em 0.75em;
+    -webkit-box-shadow: 0 3px 0 0 darken($button-grey, 10%);
+    box-shadow: 0 3px 0 0 darken($button-grey, 10%);
+    &:active {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      transform: translate(0,3px);
+      -ms-transform: translate(0,3px); /* IE 9 */
+      -webkit-transform: translate(0,3px); /* Safari and Chrome */
+      &:after {
+        top: -3px;
+      }
+    }
+    &.less-padding {
+      padding: 0.4em 0.8em;
+    }
+  }
+  &.small {
+    font-size: emCalc(15px);
+    padding-bottom: 0.45em;
+  }
+  &.mini {
+    font-size: emCalc(14px);
+    padding: 0.25em 0.5em 0.2em;
+  }
+  &.cta {
+    background-color: $blue;
+    color: white;
+    -webkit-box-shadow: 0 2px 0 0 darken($blue, 8%);
+    box-shadow: 0 2px 0 0 darken($blue, 8%);
+    &:hover {
+      background-color: lighten($blue, 2%);
+      color: white;
+    }
+    &:active {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    &.big {
+      -webkit-box-shadow: 0 3px 0 0 darken($blue, 8%);
+      box-shadow: 0 3px 0 0 darken($blue, 8%);
+      &:active {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        transform: translate(0,3px);
+        -ms-transform: translate(0,3px); /* IE 9 */
+        -webkit-transform: translate(0,3px); /* Safari and Chrome */
+        &:after {
+          top: -3px;
+        }
+      }
+    }
+  }
+  &.disabled {
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 1px 0 $light-grey;
+    box-shadow: inset 0 0 1px 0 $light-grey;
+    cursor: default;
+    color: $light-grey;
+    &:hover {
+      background-color: white;
+      color: $light-grey;
+    }
+    &:active {
+      -webkit-box-shadow: inset 0 0 1px 0 $light-grey;
+      box-shadow: inset 0 0 1px 0 $light-grey;
+      transform: translate(0,0);
+      -ms-transform: translate(0,0); /* IE 9 */
+      -webkit-transform: translate(0,0); /* Safari and Chrome */
+    }
+  }
+  &.red {
+    background-color: #b93e34;
+    -webkit-box-shadow: 0 2px 0 0 darken(#b93e34, 10%);
+    box-shadow: 0 2px 0 0 darken(#b93e34, 10%);
+    color: white;
+    &:hover {
+      background-color: lighten(#b93e34, 2%);
+    }
+    &:active {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  &.fb {
+    background-color: #3e5d9e;
+    color: white;
+    -webkit-box-shadow: 0 2px 0 0 darken(#3e5d9e, 8%);
+    box-shadow: 0 2px 0 0 darken(#3e5d9e, 8%);
+    &:hover {
+      background-color: lighten(#3e5d9e, 5%);
+    }
+    &:active {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    .icon-inside {
+      float: left;
+      margin-top: 3px;
+    }
+  }
+  &.twitter {
+    background-color: #00b1e2;
+    color: white;
+    -webkit-box-shadow: 0 2px 0 0 darken(#00b1e2, 5%);
+    box-shadow: 0 2px 0 0 darken(#00b1e2, 5%);
+    &:hover {
+      background-color: lighten(#00b1e2, 5%);
+    }
+    &:active {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    .icon-inside {
+      float: left;
+      margin-top: 3px;
+    }
+  }
 }
 
 /* Blog base styles */
