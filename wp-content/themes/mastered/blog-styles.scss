@@ -683,3 +683,13 @@ body a.linksalpha_button {
 .wp_rp_content {
 	margin-top: 2em;
 }
+
+.blog-sep-border {
+	background-color: $grey-border;
+	width: 1px;
+	height: 14px;
+	display: inline-block;
+	margin-left: 1em;
+	margin-right: 1em;
+	vertical-align: middle;
+}

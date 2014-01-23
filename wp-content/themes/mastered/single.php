@@ -7,7 +7,7 @@
 					<h1 itemprop="headline" class="post-entry-title">
 						<?php the_title(); ?>
 					</h1>
-					<p class="post-meta">Posted by <?php the_author_meta('user_firstname'); ?> in <?php the_category(', '); ?>.</p>
+					<p class="post-meta">Posted by <?php the_author_meta('user_firstname'); ?> in <?php the_category(', '); ?>.<span class="blog-sep-border"></span><a href="#disqus_thread">Leave a comment</a></p>
 				</header> <!-- End post header -->
 				<div class="post-content" itemprop="articleBody">
 					<?php the_content(); ?>
