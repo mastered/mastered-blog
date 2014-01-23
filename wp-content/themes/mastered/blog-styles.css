@@ -557,3 +557,6 @@ blockquote.right {
 
 body a.linksalpha_button {
   display: none !important; }
+
+.wp_rp_content {
+  margin-top: 2em; }
