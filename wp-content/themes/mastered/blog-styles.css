@@ -554,3 +554,6 @@ blockquote.right {
   margin-right: 0;
   width: 33%;
   float: right; }
+
+body a.linksalpha_button {
+  display: none !important; }
