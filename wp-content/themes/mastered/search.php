@@ -10,7 +10,7 @@
 					<h2 class="post-entry-title">
 						<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 					</h2>
-					<p class="post-meta">Posted by <?php the_author_meta('user_firstname'); ?> in <?php the_category(', '); ?>.</p>
+					<p class="post-meta">Posted by <?php the_author_meta('user_firstname'); ?> in <?php the_category(', '); ?>.<span class="blog-sep-border"></span><a href="<?php the_permalink() ?>#disqus_thread">Leave a comment</a></p>
 				</header> <!-- End post header -->
 				<div class="post-content">
 					<?php the_content('<span class="read-more">Read more on "'.the_title('', '', false).'"</span>'); ?>
