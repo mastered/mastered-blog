@@ -58,6 +58,8 @@ img {
 /* Typography */
 p {
   margin: 0 0 1.3em 0; }
+  p.no-spacing {
+    margin-bottom: 0; }
 
 .headline {
   font-family: "kepler-std-display", georgia, serif;
@@ -355,6 +357,15 @@ a {
     font-size: 14px; }
   .blog-course-promo .blog-cta-wrap {
     margin-bottom: 0; }
+
+.white-module {
+  background-color: #fff;
+  border: 1px gainsboro solid;
+  padding: 1.5em; }
+  .white-module.less-padding {
+    padding: 1em; }
+  .white-module.with-space {
+    margin-bottom: 1.8em; }
 
 /* Buttons */
 .butt, .button {
