@@ -61,6 +61,9 @@ p {
   p.no-spacing {
     margin-bottom: 0; }
 
+.bold {
+  font-weight: bold; }
+
 .headline {
   font-family: "kepler-std-display", georgia, serif;
   font-size: 58px;
@@ -125,6 +128,9 @@ h4 {
     color: #5f5f5f; }
     .post-meta a:hover {
       color: #2a2a2a; }
+
+.bio-para {
+  font-size: 14px; }
 
 /* Links and buttons */
 a {

@@ -1,7 +1,7 @@
 <?php if ( is_single() ) : ?>
 	<div class="white-module with-space">
-		<h3>Author: Cheryl Adamson</h3>
-		<p class="no-spacing">
+		<p class="bold">Written by Cheryl Adamson</p>
+		<p class="no-spacing bio-para">
 			Head of Marketing and Community at <a href="https://mastered.co/pages/purpose">Mastered</a>.
 			Passionate about supporting designer-makers to make a real living from their creative talents.
 		</p>

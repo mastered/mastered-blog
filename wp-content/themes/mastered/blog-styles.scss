@@ -85,6 +85,10 @@ p {
   }
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .headline {
   font-family: $serif-font-stack;
   font-size: 58px;
@@ -162,6 +166,10 @@ h4 {
 			color: $dark-grey;
 		}
 	}
+}
+
+.bio-para {
+	font-size: 14px;
 }
 
 /* Links and buttons */
