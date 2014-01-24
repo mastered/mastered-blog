@@ -2,6 +2,9 @@
 	<div class="white-module with-space">
 		<p class="bold"><span class="written-by">Written by</span> Cheryl Adamson</p>
 		<p class="no-spacing bio-para">
+			<span class="blog-bio-pic">
+				<?php echo get_wp_user_avatar(get_the_author_meta('ID'), 'thumbnail'); ?>
+			</span>
 			Head of Marketing and Community at <a href="https://mastered.co/pages/purpose">Mastered</a>.
 			Passionate about supporting designer-makers to make a real living from their creative talents.
 		</p>
