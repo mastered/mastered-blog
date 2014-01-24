@@ -212,6 +212,19 @@ a {
     color: #fff;
     text-decoration: none; }
 
+@media screen and (min-width: 45.0625em) and (max-width: 61.563em) {
+  .blog-logo {
+    margin-right: 2.7em; }
+    .blog-logo img {
+      width: 107px; }
+    .blog-logo:after {
+      top: -2px;
+      right: -1.5em; }
+
+  .blog-nav {
+    font-size: 14px; }
+    .blog-nav li {
+      margin-right: 1.3em; } }
 .back-to-website {
   font-size: 14px;
   display: inline-block;

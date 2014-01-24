@@ -272,6 +272,25 @@ a {
 	}
 }
 
+@media screen and (min-width: 45.0625em) and (max-width: 61.563em) /* 985px */ {
+	.blog-logo {
+		margin-right: 2.7em;
+		img {
+			width: 107px;
+		}
+		&:after {
+			top: -2px;
+			right: -1.5em;
+		}
+	}
+	.blog-nav {
+		font-size: 14px;
+		li {
+			margin-right: 1.3em;
+		}
+	}
+}
+
 .back-to-website {
 	font-size: 14px;
 	display: inline-block;
