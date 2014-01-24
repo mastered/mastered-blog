@@ -1,3 +1,12 @@
+<?php if ( is_single() ) : ?>
+	<div class="white-module with-space">
+		<h3>Author: Cheryl Adamson</h3>
+		<p class="no-spacing">
+			Head of Marketing and Community at <a href="https://mastered.co/pages/purpose">Mastered</a>.
+			Passionate about supporting designer-makers to make a real living from their creative talents.
+		</p>
+	</div>
+<?php endif; ?>
 <a href="https://mastered.co/courses" class="blog-course-promo">
 	<h3>Turning Makers into Masters</h3>
 	<p class="desc">Online fashion and jewelry courses from world class experts.</p>

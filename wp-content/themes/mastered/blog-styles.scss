@@ -80,6 +80,9 @@ img {
 
 p {
   margin: 0 0 1.3em 0;
+  &.no-spacing {
+  	margin-bottom: 0;
+  }
 }
 
 .headline {
@@ -444,6 +447,18 @@ a {
 	}
 	.blog-cta-wrap {
 		margin-bottom: 0;
+	}
+}
+
+.white-module {
+	background-color: #fff;
+	border: 1px $grey-border solid;
+	padding: 1.5em;
+	&.less-padding {
+		padding: 1em;
+	}
+	&.with-space {
+		margin-bottom: 1.8em;
 	}
 }
 
