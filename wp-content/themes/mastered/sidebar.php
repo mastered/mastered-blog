@@ -1,5 +1,5 @@
 <?php if ( is_single() ) : ?>
-	<div class="white-module with-space">
+	<div class="white-module with-space less-padding">
 		<p class="bold"><span class="written-by">Written by</span> Cheryl Adamson</p>
 		<p class="no-spacing bio-para">
 			<span class="blog-bio-pic">
