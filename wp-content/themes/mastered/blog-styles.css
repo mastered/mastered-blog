@@ -212,7 +212,7 @@ a {
     color: #fff;
     text-decoration: none; }
 
-@media screen and (min-width: 45.0625em) and (max-width: 61.563em) {
+@media screen and (max-width: 61.563em) {
   .blog-logo {
     margin-right: 2.7em; }
     .blog-logo img {
