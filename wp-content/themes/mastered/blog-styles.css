@@ -241,10 +241,20 @@ a {
     height: auto;
     padding-bottom: 20px; }
 
+  .blog-nav {
+    width: 100%;
+    text-align: center; }
+    .blog-nav li {
+      font-size: 13px;
+      margin-right: 1em; }
+      .blog-nav li:last-of-type {
+        margin-right: 0; }
+
   .blog-logo {
     margin-right: 0;
     display: block;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 10px; }
     .blog-logo:after {
       display: none; }
 
