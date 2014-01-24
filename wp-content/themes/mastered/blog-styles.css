@@ -132,6 +132,11 @@ h4 {
 .bio-para {
   font-size: 14px; }
 
+.written-by {
+  font-size: 14px;
+  font-weight: normal;
+  display: block; }
+
 /* Links and buttons */
 a {
   color: #2a2a2a; }

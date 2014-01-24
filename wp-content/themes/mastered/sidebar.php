@@ -1,6 +1,6 @@
 <?php if ( is_single() ) : ?>
 	<div class="white-module with-space">
-		<p class="bold">Written by Cheryl Adamson</p>
+		<p class="bold"><span class="written-by">Written by</span> Cheryl Adamson</p>
 		<p class="no-spacing bio-para">
 			Head of Marketing and Community at <a href="https://mastered.co/pages/purpose">Mastered</a>.
 			Passionate about supporting designer-makers to make a real living from their creative talents.
