@@ -137,6 +137,12 @@ h4 {
   font-weight: normal;
   display: block; }
 
+.blog-bio-pic {
+  float: right;
+  width: 50px;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
 /* Links and buttons */
 a {
   color: #2a2a2a; }
