@@ -1,5 +1,7 @@
 @import "bourbon";
 
+/* Requires CodeKit, Grunt, or some other sort of local Sass compiler */
+
 /* WordPress blog styles */
 
 /* Variables */
@@ -47,7 +49,7 @@ body {
 }
 
 
-img {
+img, iframe {
 	max-width: 100%;
 }
 

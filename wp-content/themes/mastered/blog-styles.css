@@ -1,3 +1,4 @@
+/* Requires CodeKit, Grunt, or some other sort of local Sass compiler */
 /* WordPress blog styles */
 /* Variables */
 /* Base */
@@ -33,7 +34,7 @@ body {
   .layout-width:after {
     clear: both; }
 
-img {
+img, iframe {
   max-width: 100%; }
 
 /* Grid */
