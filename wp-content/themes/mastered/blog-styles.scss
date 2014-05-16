@@ -771,14 +771,14 @@ body a.linksalpha_button {
 /* Newsletter popup */
 
 .wpp_popup_default_theme {
-	font-family: "effra",arial,helvetica neue,sans-serif;
 	.sub_content {
+		font-family: "effra",arial,helvetica neue,sans-serif !important;
 		ul {
 			display: none;
 		}
 		h4 {
-			font-weight: normal;
-			font-size: 16px;
+			font-weight: normal !important;
+			font-size: 16px !important;
 		}
 	}
 	input {
@@ -786,6 +786,6 @@ body a.linksalpha_button {
 		font-size: 16px;
 	}
 	.sbutton {
-		@extend .butt;	
+		@extend .butt.cta;	
 	}
 }
