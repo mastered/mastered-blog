@@ -630,9 +630,18 @@ body a.linksalpha_button {
   font-family: "effra",arial,helvetica neue,sans-serif !important; }
   .wpp_popup_default_theme .sub_content ul {
     display: none; }
+  .wpp_popup_default_theme .sub_content h3 {
+    margin-top: 10px; }
   .wpp_popup_default_theme .sub_content h4 {
     font-weight: normal !important;
     font-size: 16px !important; }
 .wpp_popup_default_theme input {
   font-family: "effra",arial,helvetica neue,sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 6px 8px; }
+.wpp_popup_default_theme .sbutton {
+  background-color: #2daec1 !important;
+  color: white !important;
+  -webkit-box-shadow: 0 2px 0 0 #2590a0 !important;
+  box-shadow: 0 2px 0 0 #2590a0 !important;
+  border-radius: 0 !important; }

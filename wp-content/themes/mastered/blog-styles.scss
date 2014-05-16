@@ -776,6 +776,9 @@ body a.linksalpha_button {
 		ul {
 			display: none;
 		}
+		h3 {
+			margin-top: 10px;
+		}
 		h4 {
 			font-weight: normal !important;
 			font-size: 16px !important;
@@ -784,8 +787,14 @@ body a.linksalpha_button {
 	input {
 		font-family: "effra",arial,helvetica neue,sans-serif;
 		font-size: 16px;
+		padding: 6px 8px;
 	}
 	.sbutton {
-		@extend .butt.cta;	
+		@extend .butt.cta;
+		background-color: $blue !important;
+		color: white !important;
+		-webkit-box-shadow: 0 2px 0 0 darken($blue, 8%) !important;
+		box-shadow: 0 2px 0 0 darken($blue, 8%) !important;
+		border-radius: 0 !important;
 	}
 }
