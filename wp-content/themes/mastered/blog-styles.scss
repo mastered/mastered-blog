@@ -767,3 +767,25 @@ body a.linksalpha_button {
 	margin-right: 1em;
 	vertical-align: middle;
 }
+
+/* Newsletter popup */
+
+.wpp_popup_default_theme {
+	font-family: "effra",arial,helvetica neue,sans-serif;
+	.sub_content {
+		ul {
+			display: none;
+		}
+		h4 {
+			font-weight: normal;
+			font-size: 16px;
+		}
+	}
+	input {
+		font-family: "effra",arial,helvetica neue,sans-serif;
+		font-size: 16px;
+	}
+	.sbutton {
+		@extend .butt;	
+	}
+}

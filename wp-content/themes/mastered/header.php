@@ -31,10 +31,10 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
 				</a>
 				<ul class="blog-nav">
-					<li><a href="https://mastered.co/courses">Courses</a></li>
-					<li><a href="https://mastered.co/schools">Schools</a></li>
-					<li><a href="https://mastered.co/pages/faq">How It Works</a></li>
-					<li><a href="http://blog.mastered.co/">Blog</a></li>
+					<li><a href="https://mastered.com/courses">Courses</a></li>
+					<li><a href="https://mastered.com/schools">Schools</a></li>
+					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
+					<li><a href="http://blog.mastered.com/">Blog</a></li>
 				</ul>
 			</div>
 		</header>

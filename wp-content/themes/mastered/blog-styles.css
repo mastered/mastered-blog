@@ -412,7 +412,7 @@ a {
     margin-bottom: 1.8em; }
 
 /* Buttons */
-.butt, .button {
+.butt, .wpp_popup_default_theme .sbutton, .button {
   display: inline-block;
   padding: 0.55em 0.8em 0.55em;
   font-weight: 500;
@@ -424,10 +424,10 @@ a {
   color: #2a2a2a;
   outline: 0;
   position: relative; }
-  .butt:hover, .button:hover {
+  .butt:hover, .wpp_popup_default_theme .sbutton:hover, .button:hover {
     background-color: #e8e8e8;
     color: #2a2a2a; }
-  .butt:active, .button:active {
+  .butt:active, .wpp_popup_default_theme .sbutton:active, .button:active {
     -webkit-box-shadow: none;
     box-shadow: none;
     transform: translate(0, 2px);
@@ -435,23 +435,23 @@ a {
     /* IE 9 */
     -webkit-transform: translate(0, 2px);
     /* Safari and Chrome */ }
-    .butt:active:after, .button:active:after {
+    .butt:active:after, .wpp_popup_default_theme .sbutton:active:after, .button:active:after {
       top: -2px; }
-  .butt:after, .button:after {
+  .butt:after, .wpp_popup_default_theme .sbutton:after, .button:after {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0; }
-  .butt.full-width, .button.full-width {
+  .butt.full-width, .wpp_popup_default_theme .full-width.sbutton, .button.full-width {
     width: 100%; }
-  .butt.big, .button.big {
+  .butt.big, .wpp_popup_default_theme .big.sbutton, .button.big {
     font-size: emCalc(19px);
     padding: 0.75em 1.05em 0.75em;
     -webkit-box-shadow: 0 3px 0 0 #cacaca;
     box-shadow: 0 3px 0 0 #cacaca; }
-    .butt.big:active, .button.big:active {
+    .butt.big:active, .wpp_popup_default_theme .big.sbutton:active, .button.big:active {
       -webkit-box-shadow: none;
       box-shadow: none;
       transform: translate(0, 3px);
@@ -459,31 +459,31 @@ a {
       /* IE 9 */
       -webkit-transform: translate(0, 3px);
       /* Safari and Chrome */ }
-      .butt.big:active:after, .button.big:active:after {
+      .butt.big:active:after, .wpp_popup_default_theme .big.sbutton:active:after, .button.big:active:after {
         top: -3px; }
-    .butt.big.less-padding, .button.big.less-padding {
+    .butt.big.less-padding, .wpp_popup_default_theme .big.less-padding.sbutton, .button.big.less-padding {
       padding: 0.4em 0.8em; }
-  .butt.small, .button.small {
+  .butt.small, .wpp_popup_default_theme .small.sbutton, .button.small {
     font-size: emCalc(15px);
     padding-bottom: 0.45em; }
-  .butt.mini, .button.mini {
+  .butt.mini, .wpp_popup_default_theme .mini.sbutton, .button.mini {
     font-size: emCalc(14px);
     padding: 0.25em 0.5em 0.2em; }
-  .butt.cta, .button.cta {
+  .butt.cta, .wpp_popup_default_theme .cta.sbutton, .button.cta {
     background-color: #2daec1;
     color: white;
     -webkit-box-shadow: 0 2px 0 0 #2590a0;
     box-shadow: 0 2px 0 0 #2590a0; }
-    .butt.cta:hover, .button.cta:hover {
+    .butt.cta:hover, .wpp_popup_default_theme .cta.sbutton:hover, .button.cta:hover {
       background-color: #2fb5c9;
       color: white; }
-    .butt.cta:active, .button.cta:active {
+    .butt.cta:active, .wpp_popup_default_theme .cta.sbutton:active, .button.cta:active {
       -webkit-box-shadow: none;
       box-shadow: none; }
-    .butt.cta.big, .button.cta.big {
+    .butt.cta.big, .wpp_popup_default_theme .cta.big.sbutton, .button.cta.big {
       -webkit-box-shadow: 0 3px 0 0 #2590a0;
       box-shadow: 0 3px 0 0 #2590a0; }
-      .butt.cta.big:active, .button.cta.big:active {
+      .butt.cta.big:active, .wpp_popup_default_theme .cta.big.sbutton:active, .button.cta.big:active {
         -webkit-box-shadow: none;
         box-shadow: none;
         transform: translate(0, 3px);
@@ -491,18 +491,18 @@ a {
         /* IE 9 */
         -webkit-transform: translate(0, 3px);
         /* Safari and Chrome */ }
-        .butt.cta.big:active:after, .button.cta.big:active:after {
+        .butt.cta.big:active:after, .wpp_popup_default_theme .cta.big.sbutton:active:after, .button.cta.big:active:after {
           top: -3px; }
-  .butt.disabled, .button.disabled {
+  .butt.disabled, .wpp_popup_default_theme .disabled.sbutton, .button.disabled {
     background-color: white;
     -webkit-box-shadow: inset 0 0 1px 0 #c7c7c7;
     box-shadow: inset 0 0 1px 0 #c7c7c7;
     cursor: default;
     color: #c7c7c7; }
-    .butt.disabled:hover, .button.disabled:hover {
+    .butt.disabled:hover, .wpp_popup_default_theme .disabled.sbutton:hover, .button.disabled:hover {
       background-color: white;
       color: #c7c7c7; }
-    .butt.disabled:active, .button.disabled:active {
+    .butt.disabled:active, .wpp_popup_default_theme .disabled.sbutton:active, .button.disabled:active {
       -webkit-box-shadow: inset 0 0 1px 0 #c7c7c7;
       box-shadow: inset 0 0 1px 0 #c7c7c7;
       transform: translate(0, 0);
@@ -510,40 +510,40 @@ a {
       /* IE 9 */
       -webkit-transform: translate(0, 0);
       /* Safari and Chrome */ }
-  .butt.red, .button.red {
+  .butt.red, .wpp_popup_default_theme .red.sbutton, .button.red {
     background-color: #b93e34;
     -webkit-box-shadow: 0 2px 0 0 #913129;
     box-shadow: 0 2px 0 0 #913129;
     color: white; }
-    .butt.red:hover, .button.red:hover {
+    .butt.red:hover, .wpp_popup_default_theme .red.sbutton:hover, .button.red:hover {
       background-color: #c14136; }
-    .butt.red:active, .button.red:active {
+    .butt.red:active, .wpp_popup_default_theme .red.sbutton:active, .button.red:active {
       -webkit-box-shadow: none;
       box-shadow: none; }
-  .butt.fb, .button.fb {
+  .butt.fb, .wpp_popup_default_theme .fb.sbutton, .button.fb {
     background-color: #3e5d9e;
     color: white;
     -webkit-box-shadow: 0 2px 0 0 #334c81;
     box-shadow: 0 2px 0 0 #334c81; }
-    .butt.fb:hover, .button.fb:hover {
+    .butt.fb:hover, .wpp_popup_default_theme .fb.sbutton:hover, .button.fb:hover {
       background-color: #4568b0; }
-    .butt.fb:active, .button.fb:active {
+    .butt.fb:active, .wpp_popup_default_theme .fb.sbutton:active, .button.fb:active {
       -webkit-box-shadow: none;
       box-shadow: none; }
-    .butt.fb .icon-inside, .button.fb .icon-inside {
+    .butt.fb .icon-inside, .wpp_popup_default_theme .fb.sbutton .icon-inside, .button.fb .icon-inside {
       float: left;
       margin-top: 3px; }
-  .butt.twitter, .button.twitter {
+  .butt.twitter, .wpp_popup_default_theme .twitter.sbutton, .button.twitter {
     background-color: #00b1e2;
     color: white;
     -webkit-box-shadow: 0 2px 0 0 #009dc9;
     box-shadow: 0 2px 0 0 #009dc9; }
-    .butt.twitter:hover, .button.twitter:hover {
+    .butt.twitter:hover, .wpp_popup_default_theme .twitter.sbutton:hover, .button.twitter:hover {
       background-color: #00c5fb; }
-    .butt.twitter:active, .button.twitter:active {
+    .butt.twitter:active, .wpp_popup_default_theme .twitter.sbutton:active, .button.twitter:active {
       -webkit-box-shadow: none;
       box-shadow: none; }
-    .butt.twitter .icon-inside, .button.twitter .icon-inside {
+    .butt.twitter .icon-inside, .wpp_popup_default_theme .twitter.sbutton .icon-inside, .button.twitter .icon-inside {
       float: left;
       margin-top: 3px; }
 
@@ -624,3 +624,15 @@ body a.linksalpha_button {
   margin-left: 1em;
   margin-right: 1em;
   vertical-align: middle; }
+
+/* Newsletter popup */
+.wpp_popup_default_theme {
+  font-family: "effra",arial,helvetica neue,sans-serif; }
+  .wpp_popup_default_theme .sub_content ul {
+    display: none; }
+  .wpp_popup_default_theme .sub_content h4 {
+    font-weight: normal;
+    font-size: 16px; }
+  .wpp_popup_default_theme input {
+    font-family: "effra",arial,helvetica neue,sans-serif;
+    font-size: 16px; }
