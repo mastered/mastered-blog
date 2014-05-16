@@ -34,7 +34,7 @@
 					<li><a href="https://mastered.com/courses">Courses</a></li>
 					<li><a href="https://mastered.com/schools">Schools</a></li>
 					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
-					<li><a href="http://blog.mastered.com/">Blog</a></li>
+					<li><a href="http://blog.mastered.com/">Magazine</a></li>
 				</ul>
 			</div>
 		</header>
