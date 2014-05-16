@@ -634,14 +634,21 @@ body a.linksalpha_button {
     margin-top: 10px; }
   .wpp_popup_default_theme .sub_content h4 {
     font-weight: normal !important;
-    font-size: 16px !important; }
+    font-size: 16px !important;
+    margin-bottom: 20px; }
+.wpp_popup_default_theme form p {
+  margin-bottom: 6px; }
 .wpp_popup_default_theme input {
   font-family: "effra",arial,helvetica neue,sans-serif;
   font-size: 16px;
   padding: 6px 8px; }
+.wpp_popup_default_theme input[type="text"] {
+  height: 35px; }
 .wpp_popup_default_theme .sbutton {
-  background-color: #2daec1 !important;
+  background: #2daec1 !important;
   color: white !important;
   -webkit-box-shadow: 0 2px 0 0 #2590a0 !important;
   box-shadow: 0 2px 0 0 #2590a0 !important;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  border-bottom: 0 !important;
+  font-weight: bold !important; }

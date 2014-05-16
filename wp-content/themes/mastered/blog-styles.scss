@@ -782,6 +782,12 @@ body a.linksalpha_button {
 		h4 {
 			font-weight: normal !important;
 			font-size: 16px !important;
+			margin-bottom: 20px;
+		}
+	}
+	form {
+		p {
+			margin-bottom: 6px;
 		}
 	}
 	input {
@@ -789,12 +795,17 @@ body a.linksalpha_button {
 		font-size: 16px;
 		padding: 6px 8px;
 	}
+	input[type="text"] {
+		height: 35px;
+	}
 	.sbutton {
 		@extend .butt.cta;
-		background-color: $blue !important;
+		background: $blue !important;
 		color: white !important;
 		-webkit-box-shadow: 0 2px 0 0 darken($blue, 8%) !important;
 		box-shadow: 0 2px 0 0 darken($blue, 8%) !important;
 		border-radius: 0 !important;
+		border-bottom: 0 !important;
+		font-weight: bold !important;
 	}
 }
