@@ -636,14 +636,15 @@ body a.linksalpha_button {
     font-weight: normal !important;
     font-size: 16px !important;
     margin-bottom: 20px; }
-.wpp_popup_default_theme form p {
-  margin-bottom: 6px; }
+.wpp_popup_default_theme form {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .wpp_popup_default_theme form p {
+    margin-bottom: 6px; }
 .wpp_popup_default_theme input {
   font-family: "effra",arial,helvetica neue,sans-serif;
   font-size: 16px;
   padding: 6px 8px; }
-.wpp_popup_default_theme input[type="text"] {
-  height: 35px; }
 .wpp_popup_default_theme .sbutton {
   background: #2daec1 !important;
   color: white !important;
@@ -652,3 +653,6 @@ body a.linksalpha_button {
   border-radius: 0 !important;
   border-bottom: 0 !important;
   font-weight: bold !important; }
+
+.wpp_popup_default_theme .sub_content form input[type="text"] {
+  height: 35px; }
