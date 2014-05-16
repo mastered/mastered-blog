@@ -652,7 +652,8 @@ body a.linksalpha_button {
   box-shadow: 0 2px 0 0 #2590a0 !important;
   border-radius: 0 !important;
   border-bottom: 0 !important;
-  font-weight: bold !important; }
+  font-weight: bold !important;
+  margin-top: 25px !important; }
 
 .wpp_popup_default_theme .sub_content form input[type="text"] {
   height: 35px !important; }
