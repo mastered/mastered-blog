@@ -655,4 +655,4 @@ body a.linksalpha_button {
   font-weight: bold !important; }
 
 .wpp_popup_default_theme .sub_content form input[type="text"] {
-  height: 35px; }
+  height: 35px !important; }
