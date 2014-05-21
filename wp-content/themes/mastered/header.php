@@ -27,7 +27,7 @@
 	<body <?php body_class(); ?>>
 		<header class="blog-header">
 			<div class="blog-header-inner layout-width">
-				<a href="http://mastered.co" class="blog-logo">
+				<a href="http://mastered.com" class="blog-logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
 				</a>
 				<ul class="blog-nav">
