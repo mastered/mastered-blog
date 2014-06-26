@@ -78,7 +78,7 @@ img, iframe {
 	}
 }
 
-/* Typography */ 
+/* Typography */
 
 p {
   margin: 0 0 1.3em 0;
@@ -206,7 +206,6 @@ a {
 .blog-header {
 	background-color: $dark-grey;
 	color: #fff;
-	height: 73px;
 	padding-top: 20px;
 	margin-bottom: 2.25em;
 	a {
@@ -220,10 +219,10 @@ a {
 }
 
 .blog-logo {
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
+  text-align: center;
 	position: relative;
-	margin-right: 3.7em;
 	img {
 		vertical-align: middle;
 		width: 151px;
@@ -237,7 +236,7 @@ a {
 		top: 0;
 		right: -2em;
 	}
-} 
+}
 
 .blog-title {
 	text-decoration: none;
@@ -258,7 +257,7 @@ a {
 .blog-nav {
 	display: inline-block;
 	list-style: none;
-	padding: 0;
+	padding: 0.5em;
 	// padding-left: .5em;
 	font-weight: 500;
 	margin: 0;
@@ -748,11 +747,11 @@ blockquote.right {
 	margin-right: 0;
 	width: 33%;
 	float: right;
-	} 
+	}
 
 body a.linksalpha_button {
 	display: none !important;
-} 
+}
 
 .wp_rp_content {
 	margin-top: 2em;

@@ -158,7 +158,6 @@ a {
 .blog-header {
   background-color: #2a2a2a;
   color: #fff;
-  height: 73px;
   padding-top: 20px;
   margin-bottom: 2.25em; }
   .blog-header a {
@@ -169,10 +168,10 @@ a {
   padding-right: 0.9375em; }
 
 .blog-logo {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  position: relative;
-  margin-right: 3.7em; }
+  text-align: center;
+  position: relative; }
   .blog-logo img {
     vertical-align: middle;
     width: 151px; }
@@ -199,9 +198,10 @@ a {
     opacity: .7; }
 
 .blog-nav {
-  display: inline-block;
+  display: block;
+  text-align: center;
   list-style: none;
-  padding: 0;
+  padding: 0.5em;
   font-weight: 500;
   margin: 0; }
   .blog-nav li {

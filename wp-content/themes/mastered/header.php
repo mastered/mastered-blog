@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 <!--[if IEMobile 7 ]> <html <?php language_attributes(); ?> class="no-js iem7"> <![endif]-->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
@@ -31,10 +31,13 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
 				</a>
 				<ul class="blog-nav">
-					<li><a href="https://mastered.com/schools">Schools</a></li>
-					<li><a href="https://mastered.com/courses">Courses</a></li>
+					<li><a href="https://www.mastered.com/schools/5">Illustration</a></li>
+					<li><a href="https://www.mastered.com/schools/3">Jewellery</a></li>
+					<li><a href="https://www.mastered.com/schools/2">Millinery</a></li>
+					<li><a href="https://www.mastered.com/schools/4">Tailoring</a></li>
+					<li><a href="https://www.mastered.com/schools/1">Embellishment</a></li>
+					<li><a href="https://mastered.com/course-listings">Courses</a></li>
 					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
-					<li><a href="http://blog.mastered.com/">Magazine</a></li>
 				</ul>
 			</div>
 		</header>
