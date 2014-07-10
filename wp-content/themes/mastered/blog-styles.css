@@ -170,7 +170,6 @@ a {
 .blog-logo {
   display: block;
   vertical-align: middle;
-  text-align: center;
   position: relative; }
   .blog-logo img {
     vertical-align: middle;
@@ -199,7 +198,6 @@ a {
 
 .blog-nav {
   display: block;
-  text-align: center;
   list-style: none;
   padding: 0.5em;
   font-weight: 500;
