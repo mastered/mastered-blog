@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: playbuzz\n"
+"POT-Creation-Date: 2014-01-19 15:33+0200\n"
+"PO-Revision-Date: 2014-01-19 15:33+0200\n"
+"Last-Translator: ramiy <r_a_m_i@hotmail.com>\n"
+"Language-Team: PlayBuzz <publishers@playbuzz.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:122 ../admin.php:135
+msgid "PlayBuzz"
+msgstr ""
+
+#: ../admin.php:136 ../admin.php:143
+msgid "General Settings"
+msgstr ""
+
+#: ../admin.php:137
+msgid "Recommendations"
+msgstr ""
+
+#: ../admin.php:138 ../admin.php:260
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin.php:156
+msgid "API Key"
+msgstr ""
+
+#: ../admin.php:159
+msgid "PlayBuzz uniq API key allowing configuration and analytics."
+msgstr ""
+
+#: ../admin.php:163
+msgid "Provider"
+msgstr ""
+
+#: ../admin.php:166
+msgid "Content provider. Default: playbuzz"
+msgstr ""
+
+#: ../admin.php:170
+msgid "Links"
+msgstr ""
+
+#: ../admin.php:173
+msgid ""
+"URL where you displayed playbuzz posts/games. Default: http://www.playbuzz."
+"com"
+msgstr ""
+
+#: ../admin.php:184
+msgid "Related Content"
+msgstr ""
+
+#: ../admin.php:194
+msgid "Insert into post"
+msgstr ""
+
+#: ../admin.php:197
+msgid "No"
+msgstr ""
+
+#: ../admin.php:198
+msgid "Insert into post header"
+msgstr ""
+
+#: ../admin.php:199
+msgid "Insert into post footer"
+msgstr ""
+
+#: ../admin.php:204 ../widgets.php:124
+msgid "View"
+msgstr ""
+
+#: ../admin.php:207 ../widgets.php:126
+msgid "Large Images"
+msgstr ""
+
+#: ../admin.php:208 ../widgets.php:127
+msgid "Horizontal Images"
+msgstr ""
+
+#: ../admin.php:209 ../widgets.php:128
+msgid "No Images"
+msgstr ""
+
+#: ../admin.php:214 ../widgets.php:132
+msgid "Number of Items"
+msgstr ""
+
+#: ../admin.php:235 ../widgets.php:151
+msgid "Width"
+msgstr ""
+
+#: ../admin.php:241 ../widgets.php:155
+msgid "Height"
+msgstr ""
+
+#: ../admin.php:247 ../widgets.php:159
+msgid "Tags"
+msgstr ""
+
+#: ../admin.php:262
+msgid "Embedding content is easy, just use a simple shortcode:"
+msgstr ""
+
+#: ../admin.php:265
+msgid "Game / Post Shortcode"
+msgstr ""
+
+#: ../admin.php:267 ../admin.php:274 ../admin.php:281
+msgid "Usage:"
+msgstr ""
+
+#: ../admin.php:272
+msgid "Hub / Archive Shortcode"
+msgstr ""
+
+#: ../admin.php:279
+msgid "Recommendations / Related-Content Shortcode"
+msgstr ""
+
+#: ../widgets.php:25
+msgid "PlayBuzz Recommendations"
+msgstr ""
+
+#: ../widgets.php:28
+msgid "Related playful content links and recommendations by PlayBuzz."
+msgstr ""

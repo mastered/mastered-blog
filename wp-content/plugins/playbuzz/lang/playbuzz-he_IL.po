@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: playbuzz\n"
+"POT-Creation-Date: 2014-03-08 17:06+0200\n"
+"PO-Revision-Date: 2014-03-08 17:12+0200\n"
+"Last-Translator: Rami Y <r_a_m_i@hotmail.com>\n"
+"Language-Team: PlayBuzz <publishers@playbuzz.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:182 ../admin.php:202
+msgid "PlayBuzz"
+msgstr "PlayBuzz"
+
+#: ../admin.php:203
+msgid "General Details"
+msgstr "פרטים כללים"
+
+#: ../admin.php:204
+msgid "Games"
+msgstr "משחקים"
+
+#: ../admin.php:205 ../admin.php:284
+msgid "Recommendations"
+msgstr "המלצות"
+
+#: ../admin.php:210
+msgid "General"
+msgstr "כללי"
+
+#: ../admin.php:214
+msgid "API Key"
+msgstr "מפתח API"
+
+#: ../admin.php:221
+msgid "Shortcodes"
+msgstr "פקודות מקרו"
+
+#: ../admin.php:223
+msgid "Embedding content is easy, just use a simple shortcode:"
+msgstr ""
+"הטמעת תכנים מתבצעת בצורה פשוטה למדי, פשוט הוסיפו את אחת מפקודות-המקרו הבאות "
+"לאזור תוכן:"
+
+#: ../admin.php:226
+msgid "Game / Post Shortcode"
+msgstr "פקודת מקרו להטמעת משחקים/פוסטים"
+
+#: ../admin.php:227
+msgid ""
+"Choose any Playful Content item from <a href=\"http://www.playbuzz.com"
+"\">http://www.playbuzz.com</a> and easily embed it in a post."
+msgstr ""
+
+#: ../admin.php:228
+msgid "The short code used is:"
+msgstr "פקודת המקרו:"
+
+#: ../admin.php:229 ../admin.php:237
+msgid "(Change defaults in \"Games\" tab)"
+msgstr "(שינוי ערכי ברירת מחדל בתפריט \"משחקים\")"
+
+#: ../admin.php:230
+msgid ""
+"(e.g game=\"http://www.playbuzz.com/rachaelg/eye-candy-name-the-chocolate-by-"
+"its-cross-section\")"
+msgstr ""
+
+#: ../admin.php:231
+msgid ""
+"Create your own Playful items (quizzes,lists,etc) on PlayBuzz's website and "
+"embed them in the exact same way."
+msgstr ""
+
+#: ../admin.php:232
+msgid ""
+"You can override defaults with the following attributes: info=\"true/false"
+"\", recommend=\"true/false\", social=\"true/false\"."
+msgstr ""
+
+#: ../admin.php:235
+msgid "Hub / Archive Shortcode"
+msgstr "פקודת מקרו להטמעת האב/ארכיון"
+
+#: ../admin.php:236
+msgid ""
+"A list of Playful Items in a specific vertical. This is best used as a "
+"\"Playful Section\" displaying games and posts in the selected tags (topics)."
+msgstr ""
+
+#: ../admin.php:238 ../admin.php:244
+msgid ""
+"You can override defaults with the following attributes: tags=\"Any PlayBuzz "
+"Tag\", recommend=\"true/false\", social=\"true/false\"."
+msgstr ""
+
+#: ../admin.php:241
+msgid "Recommendations / Related-Content Shortcode"
+msgstr "פקודת מקרו להטמעת המלצות/באותו-נושא"
+
+#: ../admin.php:242
+msgid ""
+"Embedding PlayBuzz related playful content links and recommendations on your "
+"sites sidebar using customizable WordPress widget."
+msgstr ""
+
+#: ../admin.php:243
+msgid "(Change defaults in \"Recommendations\" tab)"
+msgstr "(שינוי ערכי ברירת מחדל בתפריט \"המלצות\")"
+
+#: ../admin.php:245
+msgid "For the links to open on YOUR site you need to do the following:"
+msgstr ""
+
+#: ../admin.php:248
+msgid "Include the PlayBuzz hub's page shortcode in a designated page/post."
+msgstr ""
+
+#: ../admin.php:249
+msgid "Copy the URL (location) of the page that contains PlayBuzz's hub."
+msgstr ""
+
+#: ../admin.php:250
+msgid ""
+"Paste the URL in the \"Location of PlayBuzz hub\" field under "
+"\"Recommendations\"."
+msgstr ""
+
+#: ../admin.php:257
+msgid "Games Settings"
+msgstr "הגדרות משחקים"
+
+#: ../admin.php:272
+msgid "Info"
+msgstr "מידע"
+
+#: ../admin.php:274
+msgid "Show game info (thumbnail, name, description, editor, etc)."
+msgstr "הצגת פרטי משחק (תמונה, שם, תיאור, יוצר וכו...)"
+
+#: ../admin.php:278
+msgid "Social"
+msgstr "חברתי"
+
+#: ../admin.php:280
+msgid "Show sharing buttons and comments control from the game page."
+msgstr "הצגת כפתורי שיתוף ותגובות בעמוד המשחק."
+
+#: ../admin.php:286
+msgid "Show recommendations for more games."
+msgstr "הצגת המלצות למשחקים נוספים בעמודי המשחק."
+
+#: ../admin.php:290 ../admin.php:359 ../widgets.php:158
+msgid "Simple Tags"
+msgstr "תגיות רגילות"
+
+#: ../admin.php:292 ../admin.php:361 ../widgets.php:159
+msgid "Mix"
+msgstr "מעורב"
+
+#: ../admin.php:293 ../admin.php:362 ../widgets.php:160
+msgid "Funz"
+msgstr "כיף"
+
+#: ../admin.php:294 ../admin.php:363 ../widgets.php:161
+msgid "Popz"
+msgstr "פופולריים"
+
+#: ../admin.php:295 ../admin.php:364 ../widgets.php:162
+msgid "Brainz"
+msgstr "מחשבה"
+
+#: ../admin.php:296 ../admin.php:365 ../widgets.php:163
+msgid "Sportz"
+msgstr "ספורט"
+
+#: ../admin.php:297
+msgid "editorspicks"
+msgstr "בחירת העורכים"
+
+#: ../admin.php:298 ../admin.php:367 ../widgets.php:165
+msgid "TV"
+msgstr "טלוויזיה"
+
+#: ../admin.php:299 ../admin.php:368 ../widgets.php:166
+msgid "Celebrities"
+msgstr "מפורסמים"
+
+#: ../admin.php:303 ../admin.php:372 ../widgets.php:169
+msgid "Advanced Tags"
+msgstr "תגיות מתקדמות"
+
+#: ../admin.php:305 ../admin.php:374
+msgid "Comma separated tags"
+msgstr "תגיות מופרדות בפסיקים"
+
+#: ../admin.php:316
+msgid "Related Content"
+msgstr "תכנים באותו נושא"
+
+#: ../admin.php:330 ../widgets.php:139
+msgid "Number of Items"
+msgstr "מספר פריטים להצגה"
+
+#: ../admin.php:351
+msgid "Style"
+msgstr "תצוגה"
+
+#: ../admin.php:353 ../widgets.php:133
+msgid "Large Images"
+msgstr "תמונות גדולות"
+
+#: ../admin.php:354 ../widgets.php:134
+msgid "Horizontal Images"
+msgstr "תמונות אנכיות"
+
+#: ../admin.php:355 ../widgets.php:135
+msgid "No Images"
+msgstr "ללא תמונות"
+
+#: ../admin.php:366
+msgid "editorsPicks"
+msgstr "בחירת העורכים"
+
+#: ../admin.php:378
+msgid "Location of PlayBuzz hub"
+msgstr "המיקום של עמוד האב/ארכיון"
+
+#: ../admin.php:381
+msgid ""
+"The URL of the page containing the HUB shortcode. Default: http://www."
+"playbuzz.com"
+msgstr ""
+
+#: ../admin.php:390
+msgid "Automatically Add Recommendations"
+msgstr "הוספת המלצות באופן אוטומטי"
+
+#: ../admin.php:393
+msgid "Active"
+msgstr "הפעל"
+
+#: ../admin.php:396
+msgid "Disable"
+msgstr "כבה"
+
+#: ../admin.php:397
+msgid "Enable"
+msgstr "הפעל"
+
+#: ../admin.php:402
+msgid "Location"
+msgstr "מיקום"
+
+#: ../admin.php:405
+msgid "Above the content"
+msgstr "מעל התוכן"
+
+#: ../admin.php:406
+msgid "Bellow the content"
+msgstr "מתחת לתוכן"
+
+#: ../widgets.php:24
+msgid "PlayBuzz Recommendations"
+msgstr "המלצות PlayBuzz"
+
+#: ../widgets.php:27
+msgid "Related playful content links and recommendations by PlayBuzz."
+msgstr "המלצות ותכנים באותו נושא של PlayBuzz."
+
+#: ../widgets.php:127
+msgid "Title"
+msgstr "כותרת"
+
+#: ../widgets.php:131
+msgid "View"
+msgstr "תצורה"
+
+#: ../widgets.php:164
+msgid "Editor's Pick"
+msgstr "בחירת העורכים"
+
+#~ msgid "Usage:"
+#~ msgstr "אופן שימוש:"
+
+#~ msgid "Activation"
+#~ msgstr "הפעלה"
+
+#~ msgid "Deactivate"
+#~ msgstr "כבה"
+
+#~ msgid "Open links on"
+#~ msgstr "פתח קישורים ב"
+
+#~ msgid ""
+#~ "PlayBuzz uniq API key allowing configuration and analytics. If you have "
+#~ "no API key, enter your domain name i.e. example.com"
+#~ msgstr ""
+#~ "מפתח API מאפשר לבצע התאמות אישיות ולספק סטטיסטיקות ואנליטיקה. אם אין לך "
+#~ "מפתח API, ניתן להזין את שם הדומיין, למשל: example.com"
+
+#~ msgid "Links"
+#~ msgstr "קישורים"
+
+#~ msgid "Tags"
+#~ msgstr "תגיות"
+
+#~ msgid "Provider"
+#~ msgstr "ספק תוכן"
+
+#~ msgid "Content provider. Default: playbuzz"
+#~ msgstr "ספק תוכן.ברירת מחדל: playbuzz"
+
+#~ msgid "Insert into post"
+#~ msgstr "הוסף לתוכן"
+
+#~ msgid "No"
+#~ msgstr "ללא"
+
+#~ msgid "Insert into post header"
+#~ msgstr "הוסף לראש התוכן"
+
+#~ msgid "Insert into post footer"
+#~ msgstr "הוסף לתחתית התוכן"
+
+#~ msgid "Width"
+#~ msgstr "רוחב"
+
+#~ msgid "Height"
+#~ msgstr "גובה"
