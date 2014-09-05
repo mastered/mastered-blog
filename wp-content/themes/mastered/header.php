@@ -51,6 +51,7 @@
 					<li><a href="https://www.mastered.com/schools/4">Tailoring</a></li>
 					<li><a href="https://www.mastered.com/schools/6">Communications</a></li>
 					<li><a href="https://www.mastered.com/schools/1">Embellishment</a></li>
+					<li><a href="https://www.mastered.com/schools/7">Production</a></li>
 					<li><a href="https://mastered.com/course-listings">Courses</a></li>
 					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
 				</ul>
