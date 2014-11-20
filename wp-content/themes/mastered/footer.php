@@ -1,6 +1,6 @@
 		<footer class="blog-footer-wrap">
 			<div class="layout-width blog-footer">
-				<p class='copyright-footer'>&copy; Mastered &mdash; Turning Makers into Masters.</p>
+				<p class='copyright-footer'>&copy; Mastered &mdash; Talent. Meet Opportunity.</p>
 				<ul class='footer-sitemap'>
 				<li><a href="https://mastered.com/">Home</a></li>
 				<li><a href="https://mastered.com/pages/purpose">About Us</a></li>
