@@ -47,6 +47,7 @@
 				<ul class="blog-nav">
 					<li><a href="https://mastered.co/courses">Courses</a></li>
 					<li><a href="https://mastered.co/pages/faq">How It Works</a></li>
+					<li><a href="https://mastered.co/pages/purpose">About</a></li>
 				</ul>
 			</div>
 		</header>
