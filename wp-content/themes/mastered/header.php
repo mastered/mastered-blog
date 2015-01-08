@@ -45,7 +45,7 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
 				</a>
 				<ul class="blog-nav">
-					<li><a href="https://mastered.com/course-listing">Courses</a></li>
+					<li><a href="https://mastered.com/course-listings">Courses</a></li>
 					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
 					<li><a href="https://mastered.com/pages/faq">About Us</a></li>
 				</ul>
