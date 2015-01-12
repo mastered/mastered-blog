@@ -42,12 +42,12 @@
 		<header class="blog-header">
 			<div class="blog-header-inner layout-width">
 				<a href="http://mastered.com" class="blog-logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-white.svg" />
+					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm.svg" />
 				</a>
 				<ul class="blog-nav">
 					<li><a href="https://mastered.com/course-listings">Courses</a></li>
 					<li><a href="https://mastered.com/pages/faq">How It Works</a></li>
-					<li><a href="https://mastered.com/pages/faq">About Us</a></li>
+					<li><a href="https://mastered.com/pages/purpose">About Us</a></li>
 				</ul>
 			</div>
 		</header>

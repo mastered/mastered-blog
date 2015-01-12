@@ -43,4 +43,4 @@ define( 'POPUP_PLUGIN_MAIN_FILE', POPUP_PLUGIN_PATH . 'wp-popup.php' );
 
 define( 'POPUP_CLEAR_CACHE_ON_SAVE', TRUE );
 
-define( 'POPUP_PLUGIN_VERSION', '0.5' );
+define( 'POPUP_PLUGIN_VERSION', '0.5.15' );

@@ -1,6 +1,6 @@
 <?php
 
-function load_wpp() {
+function _load_wpp() {
 
 	load_wpp_classes();
 

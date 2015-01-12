@@ -27,7 +27,7 @@ class Wpp_Popup_Theme {
 		add_action( 'wpp_link_popup_shortcode',
 			array( $this, 'link_popup_render' ), 10, 2 );
 
-		add_action( 'wp_footer', array( $this, 'auto_popup_hook' ) );
+		add_action( 'wp_footer', array( $this, 'auto_popup_hook' ), 99999 );
 
 	}
 

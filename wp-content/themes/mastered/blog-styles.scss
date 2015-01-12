@@ -1,4 +1,5 @@
 @import "bourbon/bourbon";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 
 /* Requires CodeKit, Grunt, or some other sort of local Sass compiler */
 
@@ -6,16 +7,26 @@
 
 /* Variables */
 
+/* 50 shades of grey */
 $dark-grey: #2a2a2a;
+$medium-dark-grey: #5E5E5E;
 $medium-grey: #5f5f5f;
-$serif-font-stack: "kepler-std-display", georgia, serif;
-$gutter: 0.9375em;
-$blue: #2daec1;
 $light-grey: #c7c7c7;
+$lighter-grey: #EFEFEF;
+$ultra-light-grey: #fafafa;
 $pale-grey: #f0f0f0;
 $grey-border: #dcdcdc;
 $button-grey: #e3e3e3;
-$ultra-light-grey: #fafafa;
+$blue: #2daec1;
+$red: #F7394A;
+$dark-red: #d83449;
+
+$headlines-font-stack: 'Playfair Display', serif;
+$serif-font-stack: "Playfair Display", georgia, serif;
+$body-font-stack: "adriane", arial, helvetica neue, sans-serif;
+$nav-font-stack: "proxima-nova", arial, helvetica neue, sans-serif;
+
+$gutter: 0.9375em;
 
 /* Base */
 
@@ -32,8 +43,8 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "effra",arial,helvetica neue,sans-serif;
-  line-height: 1.5;
+  line-height: 1.3;
+  font-size: 18px;
   color: $dark-grey;
   background-color: #fff;
 }
@@ -67,6 +78,8 @@ img, iframe {
 
 .sidebar {
   width: 25%;
+  border-left: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
 }
 
 @media screen and (max-width:  48.750em) { /* 780px */
@@ -114,15 +127,14 @@ h2 {
   font-size: 28px;
   font-size: 1.750rem;
   margin: 0 0 .7em 0;
-  font-weight: 400;
   line-height: 1.1;
 }
 
 h3 {
-  font-size: 19px;
-  font-size: 1.188rem;
+  font-size: 26px;
   margin: 0 0 1em 0;
   font-weight: 500;
+  line-height: 1.0;
 }
 
 h4 {
@@ -135,6 +147,7 @@ h4 {
 .post-entry-title {
   margin-bottom: .2em;
   @extend h1;
+  font-weight: bold;
   a {
     text-decoration: none;
     &:hover {
@@ -159,7 +172,10 @@ h4 {
 }
 
 .post-meta {
-  font-size: 14px;
+  font-family: $nav-font-stack;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
   color: $medium-grey;
   margin-bottom: 1.8em;
   a {
@@ -170,21 +186,23 @@ h4 {
   }
 }
 
-.bio-para {
-  font-size: 14px;
-}
-
 .written-by {
   font-size: 14px;
   font-weight: normal;
   display: block;
 }
 
-.blog-bio-pic {
+.bio-container {
+  @include clearfix;
+}
+
+.bio-author {
+  width: 75%;
+  float: left;
+}
+.bio-pic {
   float: right;
-  width: 62px;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  width: 25%;
   img {
     background: #fff;
     padding: 3px;
@@ -223,13 +241,12 @@ a {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  margin-right: 2.3em;
+  margin-right: 1.3em;
   img {
     vertical-align: middle;
-    width: 171px;
+    width: 19px;
   }
-  
-} 
+}
 
 .blog-title {
   text-decoration: none;
@@ -258,11 +275,11 @@ a {
     display: inline-block;
     margin-right: 1.6em;
     vertical-align: middle;
-    margin-top: 6px;
   }
   a {
     color: #fff;
     font-size: 0.8125em;
+    font-family: $nav-font-stack;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -363,36 +380,60 @@ a {
 
 /* Blog sidebar */
 
-.side-list {
-  padding: 0;
-  margin: 0 0 2em 0;
-  border: 1px #dcdcdc solid;
-  border-bottom: 0;
-  li {
-    list-style: none;
+.sidebar {
+  .share-links a {
+    margin-right: 7px;
+  }
+  .desc {
+    line-height: 1.0;
+  }
+
+  hr {
+    margin: 25px 0;
+  }
+  select { width: 100%; }
+  @media screen and (-webkit-min-device-pixel-ratio:0) {  /*safari and chrome*/
+    select {
+      height: 35px;
+      line-height: 35px;
+      background: $ultra-light-grey;
+    }
+  }
+  select::-moz-focus-inner { /*Remove button padding in FF*/
+    border: 0;
     padding: 0;
-    margin: 0;
   }
-  .sidebar-title {
-    padding: .75em;
-    margin: 0;
-    font-size: .9375em;
-    color: #5f5f5f;
-    font-family: "georgia",serif;
-    font-style: italic;
+  @-moz-document url-prefix() { /* targets Firefox only */
+    select {
+        padding: 15px 0!important;
+    }
   }
-  a {
-    display: block;
-    background-color: #f0f0f0;
-    border-bottom: 1px #dcdcdc solid;
-    padding: .5em;
-    text-decoration: none;
-  }
-  .current-cat {
+}
+
+.course-listing {
+  list-style-type: none;
+  padding: 0;
+  li {
+    margin-bottom: 10px;
     a {
-      background-color: $dark-grey;
-      color: #fff;
-      border-bottom: 1px $dark-grey solid;
+      text-decoration: none;
+    }
+  }
+  .course-image {
+    height: 145px;
+    img {
+      height: 145px;
+    }
+  }
+  .course-description {
+    background-color: $lighter-grey;
+    padding: 15px;
+    .description {
+      font-size: 16px;
+      color: $medium-dark-grey;
+    }
+    h3 {
+      margin-bottom: 2px;
     }
   }
 }
@@ -401,21 +442,15 @@ a {
   margin-bottom: 2em;
 }
 
-.search-blog-label {
-  font-size: 14px;
-  color: $medium-grey;
-  display: block;
-}
-
 .search-blog-input {
-  width: 100%;
+  margin-right: 10px;
   padding: .5em .7em;
   font-family: "effra",arial,helvetica neue,sans-serif;
   font-size: 16px;
   border: 1px rgba(0,0,0,0.2) solid;
   box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.06),0px 1px 0 0 rgba(255,255,255,0.7);
   display: inline-block;
-  width: 75%;
+  width: 70%;
   vertical-align: middle;
   &:focus {
     outline: 0;
@@ -423,27 +458,15 @@ a {
 }
 
 .blog-search-btn {
-  background-color: #f0f0f0;
-  border: 1px rgba(0,0,0,0.2) solid;
-  border-left: 0;
+  border: none;
   height: 37px;
   display: inline-block;
   width: 25%;
   text-align: center;
   vertical-align: middle;
   font-size: 11px;
-  cursor: pointer;
-  color: $dark-grey;
-  outline: none;
-  &:hover {
-    border: 1px $dark-grey solid;
-    left: -1px;
-    position: relative;
-    z-index: 5;
-    background-color: $dark-grey;
-    color: #fff;
-  }
 }
+
 
 /* Blog footer */
 
@@ -487,44 +510,43 @@ a {
   }
 }
 
-/* Sidebar elements */
 
-.blog-course-promo {
-  text-decoration: none;
-  padding: 1em;
-  border: 1px #dcdcdc solid;
-  margin: 0 0 2em 0;
-  display: block;
-  h3 {
-    line-height: 1.3;
-    margin-bottom: .5em;
-  }
-  .desc {
-    font-size: 14px;
-  }
-  .blog-cta-wrap {
-    margin-bottom: 0;
-  }
-}
+/* Buttons
+  font-family: $nav-font-stack
+  display: inline-block
+  padding: .55em .8em .55em
+  font-weight: bold
+  text-align: center
+  text-decoration: none
+  text-transform: uppercase
+  background-color: $button-grey
+  //-webkit-box-shadow: 0 2px 0 0 darken($button-grey, 10%)
+  //box-shadow: 0 2px 0 0 darken($button-grey, 10%)
+  color: $dark-grey
+  outline: 0
+  position: relative
 
-.white-module {
-  background-color: #fff;
-  border: 1px $grey-border solid;
-  padding: 1.5em;
-  &.less-padding {
-    padding: 1em;
-  }
-  &.with-space {
-    margin-bottom: 1.8em;
-  }
-}
+  font-size: 14px
+  background: $button-grey
+  border: 6px solid
+  border-top: none
+  border-left: none
+  border-right: none
+  border-bottom-color:  darken($button-grey, 10%)
+  box-shadow: none
+*/
 
-/* Buttons */
 
 .butt,.button {
+  @include border-bottom-radius(5px);
+  @include border-top-radius(5px);
+  border-bottom: 6px solid $button-grey;
+  font-family: $nav-font-stack;
+  text-transform: uppercase;
   display: inline-block;
-  padding: 0.55em 0.8em 0.55em;
-  font-weight: 500;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 14px;
   text-align: center;
   text-decoration: none;
   background-color: $button-grey;
@@ -583,15 +605,28 @@ a {
   }
   &.mini {
     font-size: emCalc(14px);
-    padding: 0.25em 0.5em 0.2em;
+    padding: 12px;
+  }
+  &.black {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background-color: black;
+    color: white;
+    &:hover {
+      background-color: $button-grey;
+      background-color: $button-grey;
+      color: black;
+    }
   }
   &.cta {
-    background-color: $blue;
+    border-bottom-color: $dark-red;
+    background-color: $red;
     color: white;
-    -webkit-box-shadow: 0 2px 0 0 darken($blue, 8%);
-    box-shadow: 0 2px 0 0 darken($blue, 8%);
+    -webkit-box-shadow: 0 2px 0 0 darken($red, 8%);
+    box-shadow: 0 2px 0 0 darken($red, 8%);
     &:hover {
-      background-color: lighten($blue, 2%);
+      background-color: lighten($red, 2%);
       color: white;
     }
     &:active {
@@ -599,8 +634,8 @@ a {
       box-shadow: none;
     }
     &.big {
-      -webkit-box-shadow: 0 3px 0 0 darken($blue, 8%);
-      box-shadow: 0 3px 0 0 darken($blue, 8%);
+      -webkit-box-shadow: 0 3px 0 0 darken($red, 8%);
+      box-shadow: 0 3px 0 0 darken($red, 8%);
       &:active {
         -webkit-box-shadow: none;
         box-shadow: none;

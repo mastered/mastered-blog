@@ -1,13 +1,13 @@
 === WP Popup Plugin ===
 Contributors: Muneeb 
-Donate link:http://rocketplugins.com/wordpress-popup-plugin/
-Tags: aweber, bar, conversion, cookies, email, exit popup, hover, jquery, lightbox, mailchimp, page, popup, popups, Post, premium, revenue, sales, simple popup, wordpress popup, video
+Donate link:http://rocketplugins.com/wordpress-popup-plugin/?ref=donate_link
+Tags: aweber, bar, conversion, cookies, email, exit popup, hover, jquery, lightbox, mailchimp, page, popup, popups, post, premium, revenue, sales, simple popup, wordpress popup, video, image, subscribe, form, shortcodes, opt-in, optin form, layer popup, icontact, compaign monitor, 4.0,rocket plugins, muneeb, exit intent, rocket, layer, mask, overlay, layout, box, marketing
 Requires at least: 3.1
-Tested up to: 3.9.1
+Tested up to: 4.1
 Stable tag: 0.5
 License: GPLv2 or later
 
-WP Popup plugin is beautifully designed and elegant plugin with focus on ease of use and functionality. Create unlimited Popups with subscriber forms 
+WP Popup plugin is beautifully designed and elegant plugin with focus on ease of use and functionality. Create unlimited Popups with subscriber forms. 
 
 == Description ==
 
@@ -50,7 +50,7 @@ There are no major functionality compromises made in the free version of the plu
      <strong>HTML theme </strong>use it to add any kind of valid HTML code like videos, images etc in the popup also WordPress shortcodes are supported.
     </li>
     <li>
-      Mailchimp, Aweber, Compaign Monitor are supported.
+      Mailchimp, Aweber, Campaign Monitor are supported.
     </li>
     <li>
       Two really beautiful and high converting popup themes with subscriber forms are included.
@@ -71,8 +71,15 @@ Please click on the link to visit <a href="http://rocketplugins.com/wordpress-po
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
+Visit wp-admin -> WP Popup -> Add New to create new popup
+
+Visit wp-admin -> Settings -> WP Popup Settings to configure popup settings
+
+
 == Frequently Asked Questions ==
 
 Please use the forum on my site to get the support. This way it's easy for me to manage support requests and it helps others having the same issue. The link to the support forum is below.
+
+<strong>Please don't post pro version support requests on the free version support forum.</strong>
 
 <a href="http://muneeb.me/support/forum/wp-popup-plugin-2/">http://muneeb.me/support/forum/wp-popup-plugin-2/</a>

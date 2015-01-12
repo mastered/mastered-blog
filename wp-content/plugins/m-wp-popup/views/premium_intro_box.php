@@ -2,7 +2,7 @@
 		
 	<div class="wp-box">
 		<div class="inner">
-			<h3 class="h2"><?php _e("WordPress Popup Plugin",'wpp'); ?></h3>
+			<h3 class="h2"><?php _e("WP Popup Plugin",'wpp'); ?></h3>
 		
 			<h2><?php _e("Support",'wpp'); ?></h3>
 			<p>Please post your question on 
@@ -19,7 +19,7 @@
 					<li><?php _e("Created by",'wpp'); ?> Muneeb ur Rehman</li>
 				</ul>
 				<ul class="right hl">
-					<li><a href="http://twitter.com/tmuneeb"><?php _e("Follow Me",'wpp'); ?></a></li>
+					<li><a href="http://twitter.com/tmuneeb"><?php _e("Follow Muneeb",'wpp'); ?></a></li>
 				</ul>
 			</div>
 	</div>

@@ -171,7 +171,7 @@ jQuery(function ($) {
     color: black;
 }
 .wpp_popup_default_theme .sub_content ul li{
-	color: black;
+	color: black !important;
 }
 .sbutton {
     background: #e05d22;
