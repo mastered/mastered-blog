@@ -23,7 +23,7 @@ $dark-red: #d83449;
 
 $headlines-font-stack: 'Playfair Display', serif;
 $serif-font-stack: "Playfair Display", georgia, serif;
-$body-font-stack: "adriane", arial, helvetica neue, sans-serif;
+$body-font-stack: "proxima-nova", arial, helvetica neue, sans-serif;
 $nav-font-stack: "proxima-nova", arial, helvetica neue, sans-serif;
 
 $gutter: 0.9375em;
@@ -43,8 +43,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  line-height: 1.3;
-  font-size: 18px;
+  font: 18px/25px $nav-font-stack;
   color: $dark-grey;
   background-color: #fff;
 }

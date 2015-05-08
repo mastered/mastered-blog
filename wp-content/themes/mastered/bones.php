@@ -39,8 +39,8 @@ function bones_head_cleanup() {
 function bones_queue_low_js_and_css() {
   if (!is_admin()) {
 	// responsive stylesheet for those browsers that can read it
-    wp_register_style( 'bones-responsive', get_template_directory_uri() . '/library/css/style.css', array(), '2011-11-04T15:38', '(min-width:481px)' );
-    wp_enqueue_style( 'bones-responsive' );
+    // wp_register_style( 'bones-responsive', get_template_directory_uri() . '/library/css/style.css', array(), '2011-11-04T15:38', '(min-width:481px)' );
+    // wp_enqueue_style( 'bones-responsive' );
   }
 }
 	// enqueue responsive scripts and styles
