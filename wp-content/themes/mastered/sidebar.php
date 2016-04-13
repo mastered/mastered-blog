@@ -13,7 +13,7 @@
 
 <h3>Talent. Meet opportunity.</h3>
 <p class="desc">Online fashion and jewellery courses from world class experts.</p>
-<a class="butt mini cta full-width" href="https://mastered.com/course-listings">Try a course today</a>
+<a class="butt mini cta full-width" href="https://mastered.com/programs">Try a course today</a>
 
 <hr/>
 <h3>Connect with us</h3>
